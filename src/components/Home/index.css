@@ -1,0 +1,49 @@
+.home-page {
+  height: 100vh;
+}
+.projects-container {
+  padding: 40px;
+}
+.select-category {
+  width: 300px;
+  height: 32px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-family: 'roboto';
+  padding-left: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.loader-container {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+.project-card {
+  border-radius: 10px;
+  width: 160px;
+  height: 180px;
+  box-shadow: 0px 1px 1px 0px #bfbfbfbf;
+  margin-bottom: 20px;
+  margin-right: 8px;
+}
+.project-image {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.project-name {
+  padding-left: 15px;
+  color: #475569;
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 500;
+}

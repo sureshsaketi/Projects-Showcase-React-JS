@@ -1,0 +1,33 @@
+.failure-view-container {
+  height: 68vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-image {
+  width: 280px;
+}
+.failure-heading {
+  color: #475569;
+  font-family: 'roboto';
+  font-size: 24px;
+  text-align: center;
+  font-weight: 500;
+}
+.failure-text {
+  color: #64748b;
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: 500;
+}
+.retry-button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  background-color: #328af2;
+  border-radius: 5px;
+  height: 36px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+}
